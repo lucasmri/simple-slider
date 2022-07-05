@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#slide {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 1000px;
+    height: 450px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+}
+
+.slide1 {
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide2 {
+    background-image: url("https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide3 {
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
