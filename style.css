@@ -49,12 +49,12 @@
     background-color: rgb(12, 12, 12);
 }
 
-#btn1 {
+#btnL {
     top: 50%;
     transform: translate(-50%,-50%);
 }
 
-#btn2 {
+#btnR {
     left: 100%;
     top: 50%;
     transform: translate(-50%,-50%);
